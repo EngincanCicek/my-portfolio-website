@@ -1,3 +1,5 @@
+<?php include 'includes/header.php'; ?>
+
 <main class="container">
     <section class="about">
         <h1>About Me</h1>
@@ -10,14 +12,7 @@
             <li><strong>Flutter Developer at Yeterly</strong> (Jul 2022 – Jan 2023)</li>
             <li><strong>Co-Founder & Game Developer at FreeZ Studio</strong> (Sep 2023 – Present)</li>
         </ul>
-
-        <h2>Skills</h2>
-        <p>Java, Kotlin, Flutter, C#, Unity, Python, OpenCV, SQL, Firebase, JavaScript, PHP.</p>
-
-        <h2>Education</h2>
-        <p>Namık Kemal University - Computer Programming (2022 – 2025)</p>
-
-        <h2>Certifications</h2>
-        <p>Google Project Management, AI-Enhanced App Development, Advanced Android App Development, and more.</p>
     </section>
 </main>
+
+<?php include 'includes/footer.php'; ?>

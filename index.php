@@ -1,4 +1,5 @@
- 
+<?php include 'includes/header.php'; ?>
+
 <main class="container">
     <section class="intro">
         <h1>Hi, I'm Engincan 👋</h1>
@@ -10,3 +11,4 @@
     </section>
 </main>
 
+<?php include 'includes/footer.php'; ?>
