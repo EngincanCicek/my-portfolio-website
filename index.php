@@ -1,14 +1,15 @@
 <?php include 'includes/header.php'; ?>
 
-<main class="container">
-    <section class="intro">
+<main>
+    <section id="home" class="section">
         <h1>Hi, I'm Engincan 👋</h1>
         <p>A Software Developer passionate about mobile apps, game development, AI, and IT solutions.</p>
-        <div class="buttons">
-            <a href="projects.php" class="btn">View Projects</a>
-            <a href="contact.php" class="btn btn-secondary">Contact Me</a>
-        </div>
+        <a href="#about" class="btn">Learn More</a>
     </section>
+
+    <?php include 'about.php'; ?>
+    <?php include 'projects.php'; ?> <!-- Şimdilik boş -->
+    <?php include 'contact.php'; ?> <!-- Şimdilik boş -->
 </main>
 
 <?php include 'includes/footer.php'; ?>
