@@ -6,7 +6,7 @@
         <div class="container">
             <h1>Hi, I'm Engincan 👋</h1>
             <p>Software Developer | Mobile Apps | Game Dev | AI & IT Solutions</p>
-            <img src="assets/img/profile.jpg" alt="Engincan Çiçek" class="profile-image">
+            <img src="assets/img/profile0.jpg" alt="Engincan Çiçek" class="profile-image">
             <p> </p> <!-- Just for coloum display -->
             <a href="#about" class="btn">Learn More</a>
         </div>
