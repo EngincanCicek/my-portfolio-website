@@ -1,9 +1,9 @@
-/* General Things */
+/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #F8FAFC; /* Light gray */
     color: #333;
     scroll-behavior: smooth;
 }
@@ -12,86 +12,153 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    height: 48px;
     top: 0;
     left: 0;
-    background-color: rgba(34, 34, 34, 0.9);
-    padding: 10px 0;
+    background-color: rgba(30, 58, 138, 0.9); /* Dark blue */
+    padding: 12px 0;
     text-align: center;
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 15px;
+    margin: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.1rem;
     padding: 10px;
+    transition: color 0.3s ease;
 }
 
-/* Hero */
+/* Profile Image */
+.profile-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover;
+    margin-top: 20px; 
+    border: 2px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+
+nav ul li a:hover {
+    color: #60A5FA; /* Light blue */
+}
+
+/* Hero Section */
 .hero {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #007bff;
+    background: #1E3A8A; /* Dark blue */
     color: white;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 300;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: #007bff;
-    text-decoration: none;
-    border-radius: 5px;
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
     margin-top: 20px;
 }
 
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white;
+    color: #1E3A8A;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #60A5FA;
     color: white;
 }
 
-/* sections */
+/* Sections */
 .section {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.about {
-    background-color: #f9f9f9;
-}
-
-footer {
-    background-color: #222;
-    color: white;
-    width: 100%;
-    height: 128px;
-    padding: 10px;
+    padding: 50px 10%;
     text-align: center;
+    position: relative;
+}
+
+/* About Section */
+.about {
+    background-color: white;
+    color: #1E293B; /* Dark Gray */
+}
+
+/* Projects Section */
+.projects {
+    background-color: #F8FAFC; /* Light Gray */
+    color: #1E3A8A; /* Dark Blue */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #1E293B; /* Dark Gray */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #1E293B;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .section {
+        padding: 30px 5%;
+    }
 }
