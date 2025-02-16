@@ -1,19 +1,28 @@
-/* Style general */
+/* General Things */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    text-align: center;
+    scroll-behavior: smooth;
 }
 
 /* Navbar */
+nav {
+    position: fixed;
+    width: 100%;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 10px 0;
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #222;
-    margin: 0;
 }
 
 nav ul li {
@@ -25,32 +34,64 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 10px;
 }
 
-.intro {
-    margin-top: 50px;
-}
-
-.buttons .btn {
-    display: inline-block;
-    padding: 10px 20px;
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #007bff;
     color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
     text-decoration: none;
     border-radius: 5px;
-    margin: 10px;
+    margin-top: 20px;
 }
 
-.buttons .btn:hover {
+.btn:hover {
     background-color: #0056b3;
+    color: white;
 }
 
-/* Footer */
+/* sections */
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about {
+    background-color: #f9f9f9;
+}
+
 footer {
     background-color: #222;
     color: white;
-    padding: 10px;
-    position: absolute;
     width: 100%;
-    bottom: 0;
+    height: 128px;
+    padding: 10px;
+    text-align: center;
 }

@@ -1,10 +1,13 @@
 <?php include 'includes/header.php'; ?>
 
 <main>
-    <section id="home" class="section">
-        <h1>Hi, I'm Engincan 👋</h1>
-        <p>A Software Developer passionate about mobile apps, game development, AI, and IT solutions.</p>
-        <a href="#about" class="btn">Learn More</a>
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm Engincan 👋</h1>
+            <p>Software Developer | Mobile Apps | Game Dev | AI & IT Solutions</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
 
     <?php include 'about.php'; ?>
