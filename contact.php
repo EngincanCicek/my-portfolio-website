@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="links-section">
+<section id="contact_links" class="links-section">
     <div class="container">
         <h1>Links</h1>
         <div class="links-container">
