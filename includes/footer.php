@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; 2024 Engincan Çiçek | All Rights Reserved</p>
+    <p>&copy; 2025 Engincan Çiçek | All Rights Reserved</p>
 </footer>
 
 <script src="assets/js/script.js"></script>
