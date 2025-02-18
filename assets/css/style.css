@@ -112,6 +112,28 @@ nav ul li a:hover {
     }
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: white; 
+    color: #1E3A8A; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px; 
+    transition: all 0.3s ease;
+    border: 2px solid white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.btn:hover {
+    background-color: #1E3A8A; 
+    color: white; 
+    border-color: #1E3A8A; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px); 
+}
+
+
 /* Sections */
 .section {
     min-height: 100vh; 
