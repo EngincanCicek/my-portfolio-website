@@ -2,7 +2,23 @@
 
 [![Visit My Website](https://img.shields.io/badge/Visit-Website-blue?style=for-the-badge)](https://engincancicek.com)
 
-This project is a **personal portfolio website** for me, showcasing his software development experience, projects, and skills. The website is built using **PHP, HTML, CSS, and JavaScript** and is hosted on a **CPANEL and LINUX HOST**.
+This project is a **personal portfolio website** for me, showcasing my software development experience, projects, and skills. The website is built using **PHP, HTML, CSS, and JavaScript** and is hosted on a **CPANEL and LINUX HOST**.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Landing Page (Hero Section)
+![Hero Section](SS/web1.png)
+
+### 👤 About Page
+![About Page](SS/web2.png)
+
+### 🛠️ Projects Page
+![Projects Page](SS/web3.png)
+
+### 📞 Contact Page
+![Contact Page](SS/web4.png)
 
 ---
 
@@ -50,4 +66,3 @@ This project is a **personal portfolio website** for me, showcasing his software
 - **CSS3** – Styling and responsive design
 - **JavaScript (Vanilla JS)** – Dynamic interactions and animations
 - **Linux Hosting (CPanel)** – Hosting the website on a live server
-
